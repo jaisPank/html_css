@@ -64,3 +64,39 @@ The src attribute defines the URL of the page to embed
 Always include a title attribute (for screen readers)
 The height and width attributes specify the size of the iframe
 Use border:none; to remove the border around the iframe
+
+
+
+
+
+CSS
+
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+
+CSS SYNTAX
+
+A CSS rule consists of a selector and a declaration block.
+The selector points to the HTML element you want to style.The declaration block contains one or more declarations separated by semicolons.Each declaration includes a CSS property name and a value, separated by a colon.Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+CSS SELECTORS
+
+CSS selectors are used to "find" (or select) the HTML elements you want to style.We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+CSS CASCADING ORDER
+
+What style will be used when there is more than one style specified for an HTML element?All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+Inline style (inside an HTML element)
+External and internal style sheets (in the head section)
+Browser default
+
+
